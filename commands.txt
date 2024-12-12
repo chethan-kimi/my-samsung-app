@@ -1,0 +1,150 @@
+ 277  ls
+  278  mkdir project
+  279  cd project/
+  280  ls
+  281  git init
+  282  ls
+  283  vim t1.py.txt
+  284  git add t1.py.txt 
+  285  git commit -m "Maven project"
+  286  git status
+  287  git branch -U main
+  288  git branch -M main
+  289  git brnach
+  290  git branch
+  291  git remote add origin git@github.com:chethan-kimi/project.git
+  292  git push origin -u main
+  293  git branch
+  294  git checkout -b samsung-1234
+  295  git branch
+  296  vim t1.py.txt 
+  297  git add t1.py.txt 
+  298  git commit -m "samsung-1234 - added a line in new branch"
+  299  git push origin samsung-1234 
+  300  mvn -version
+  301  cd ..
+  302  mvn archetype:generate -DgroupID=com.samsung.app -DartifactID=my-samsung-app -DarchetypeArtifactID=maven-archtype-quickstart -Darchetypeversion=1.4 -DinteractiveMode=false
+  303  mvn archetype:generate -DgroupID=com.samsung.app -DartifactID=my-samsung-app -DarchetypeArtifactId=maven-archtype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  304  ls
+  305  mvn archetype:generate -DgroupID=com.samsung.app -DartifactID=my-samsung-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  306  mvn archetype:generate -DgroupId=com.samsung.app -DartifactId=my-java-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  307  mvn archetype:generate -DgroupId=com.samsung.app -DartifactId=my-samsung-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  308  ls
+  309  cd my-samsung-app/
+  310  ls
+  311  cd src/
+  312  ls
+  313  cd main/
+  314  ls
+  315  cd ../..
+  316  ls
+  317  vim pom.xml 
+  318  ls
+  319  mvn clean install
+  320  s
+  321  ls
+  322  cd target/
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd src/
+  327  cd main/
+  328  ls
+  329  cd java/
+  330  ls
+  331  cd com/
+  332  ls
+  333  cd samsung/
+  334  ls
+  335  cd app/
+  336  ls
+  337  pwd
+  338  vim App.java 
+  339  java -cp my-samsung-app-1.0-SNAPSHOT.jar com.samsung.app.App
+  340  cd ..
+  341  cd ../..
+  342  cd ..
+  343  cd my-samsung-app/
+  344  ls
+  345  cd target/
+  346  ls
+  347  java -cp my-samsung-app-1.0-SNAPSHOT.jar com.samsung.app.App
+  348  pwd
+  349  cd ..
+  350  ls
+  351  cd src/
+  352  ls
+  353  cd main/
+  354  ls
+  355  cd java/
+  356  ls
+  357  cd com/
+  358  ls
+  359  cd samsung/
+  360  ls
+  361  cd app/
+  362  ls
+  363  pwd
+  364  vim App.java 
+  365  cd ../..
+  366  ls
+  367  cd ..
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd target/
+  376  java -cp my-samsung-app-1.0-SNAPSHOT.jar com.samsung.app.App
+  377  cd ..
+  378  mvn clean
+  379  ls
+  380  mvn clean instal
+  381  mvn clean install
+  382  cd target/
+  383  cd ..
+  384  ls
+  385  cd target/
+  386  java -cp my-samsung-app-1.0-SNAPSHOT.jar com.samsung.app.App
+  387  cd ../src/main/java/com/samsung/app/
+  388  ls
+  389  vim App.java 
+  390  cd ../app/
+  391  ls
+  392  cd ../..
+  393  ls
+  394  cd samsung/
+  395  ls
+  396  cd app/
+  397  ls
+  398  cd ..
+  399  ls
+  400  cd ..
+  401  ls
+  402  mvn clean
+  403  mvn clean install
+  404  ls
+  405  cd target/
+  406  ls
+  407  java -cp my-samsung-app-1.0-SNAPSHOT.jar com.samsung.app.App
+  408  cd ..
+  409  git init
+  410  git branch
+  411  git branch -m development
+  412  git branch
+  413  git status
+  414  mvn clean
+  415  ls
+  416  git status
+  417  git add .
+  418  git commit -m "samsung-1234 - created a maven project"
+  419  git status
+  420  git push origin development 
+  421  git remote add git@github.com:chethan-kimi/my-samsung-app.git
+  422  git remote add origin git@github.com:chethan-kimi/my-samsung-app.git
+  423  git remote -v
+  424  git push origin development 
+  425  history
+
